@@ -1,0 +1,6 @@
+settings:
+  currency-name: "Coins"
+  respawn-delay-ticks: 1
+
+mines: {}
+shop-villagers: []

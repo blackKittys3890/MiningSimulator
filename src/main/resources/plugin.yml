@@ -1,0 +1,26 @@
+name: MiningSimulator
+version: 1.0.0
+main: de.miningsim.MiningSimulator
+api-version: 1.21
+authors: [black_Kittys]
+description: Mining Simulator with auto-respawn zones and villager shop
+
+depend: [WorldEdit]
+
+commands:
+  mine:
+    description: Mine admin commands
+    usage: /mine <setzone|setblock|removeblock|reset|info>
+    permission: miningsim.admin
+  mshop:
+    description: Spawn or manage shop villager
+    usage: /mshop <spawn|remove>
+    permission: miningsim.admin
+  bal:
+    description: Check your coin balance
+    usage: /bal
+
+permissions:
+  miningsim.admin:
+    description: Full admin access
+    default: op
