@@ -28,7 +28,7 @@ jobs:
       - name: Send Discord message via Bot
         run: |
           curl -X POST "https://discord.com/api/v10/channels/1495191443545915482/messages" \
-          -H "Authorization: Bot ${{ secrets.DISCORD_BOT_TOKEN }}" \
+          -H "Authorization: Bot ${{ secrets.DISCORD_BOT_TOKEN2 }}" \
           -H "Content-Type: application/json" \
           -d "{
             \"content\": \"<@&1495192134809157762>\",
