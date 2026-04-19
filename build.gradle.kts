@@ -12,7 +12,7 @@ plugins {
 val commandAPIVersion = "11.1.0"
 
 group = "io.github.black_Kittys22"
-version = "3.1"
+version = "3.0"
 
 configurations.all {
     resolutionStrategy {
