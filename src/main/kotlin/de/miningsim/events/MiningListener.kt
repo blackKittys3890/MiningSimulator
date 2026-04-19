@@ -13,7 +13,6 @@ class MiningListener(private val plugin: MiningSimulator) : Listener {
         val zone = plugin.mineManager.getZoneAt(event.block.location) ?: return
         val player = event.player
 
-        // Drops direkt ins Inventar
         event.isDropItems = false
         event.block.getDrops(player.inventory.itemInMainHand).forEach { drop ->
             player.inventory.addItem(drop).forEach { (_, leftover) ->
@@ -21,7 +20,6 @@ class MiningListener(private val plugin: MiningSimulator) : Listener {
             }
         }
 
-        // Respawn planen
         plugin.mineManager.onBlockBroken(zone, event.block.location)
     }
 }
