@@ -1,54 +1,49 @@
-⛏️ Mining Simulator Plugin
+# ⛏️ Mining Simulator
 
-Ein Minecraft-Plugin, das dein Mining-Gameplay auf ein neues Level bringt. Mehr Progression, mehr Grind-Fun und ein bisschen „ich brauch noch genau EINEN Block…“-Suchtfaktor 😄
+A modern Minecraft plugin that transforms traditional mining into a progression-based experience.  
+Designed for survival, RPG, and economy servers that want to make mining more engaging and rewarding.
 
-✨ Features
-🪨 Mining-System mit Progression
-Mining fühlt sich nicht mehr 0815 an
-Fortschritt statt stumpfes Block abbauen
-💰 Belohnungen fürs Minen
-Verdiene Rewards beim Abbauen von Blöcken
-Perfekt für Survival- & Economy-Server
-⚡ Custom Mining Experience
-Anpassbare Werte für Drops & Progress
-Serverfreundlich und flexibel konfigurierbar
-🎯 Kompatibel für moderne Server
-Läuft auf aktuellen Paper/Spigot Versionen
-Leicht zu integrieren
-🛠️ Installation
-Plugin .jar in deinen plugins/ Ordner packen
-Server starten oder neustarten
-Config nach deinen Wünschen anpassen
-Fertig – Mining Simulator läuft 😎
-⚙️ Konfiguration
+---
 
-In der config.yml kannst du z. B. einstellen:
+## ✨ Features
 
-Drop-Rates
-XP / Progress Werte
-Belohnungen
-Mining Geschwindigkeit (falls unterstützt)
-🎮 Für wen ist das Plugin?
-Survival Server
-Economy / RPG Server
-Skyblock / Custom Gameplay Server
-Alle, die Mining weniger langweilig machen wollen
-🧠 Idee dahinter
+- 🪨 **Progress-based Mining System**  
+  Mining is no longer just breaking blocks – players progress over time and feel real advancement.
 
-Vanilla Mining ist schnell „ich hau Stein kaputt und fertig“.
-Dieses Plugin macht daraus ein kleines Progress-System, das dich länger dran hält und Spielern mehr Motivation gibt weiterzugrinden.
+- 💰 **Reward System**  
+  Players earn configurable rewards while mining, making the gameplay loop more engaging.
 
-📌 Requirements
-Java 17+ (oder je nach Server-Version)
-Paper / Spigot kompatibler Server
-Minecraft Version je nach Plugin Release
-💬 Support
+- ⚙️ **Highly Configurable**  
+  Customize drops, progression rates, rewards, and more to fit your server perfectly.
 
-Wenn du Bugs findest oder Ideen hast:
+- ⚡ **Lightweight & Performance Friendly**  
+  Built with performance in mind to run smoothly on modern Minecraft servers.
 
-👉 Issues / Pull Requests sind willkommen
-👉 Oder einfach Feedback geben
+- 🔌 **Server Friendly**  
+  Works with Paper / Spigot-based servers.
 
-🚀 Credits
+---
 
-Made with ❤️ für Minecraft Server Communities
+## 📦 Installation
+
+1. Download the latest release from the [Releases](../../releases) page  
+2. Place the `.jar` file into your `/plugins` folder  
+3. Restart your server  
+4. Adjust the configuration in `config.yml`  
+5. Enjoy the new mining experience 🎉
+
+---
+
+## ⚙️ Configuration
+
+The plugin comes with an easy-to-use configuration file:
+
+```yml
+# Example config section
+rewards:
+  enable: true
+  chance: 0.25
+
+progress:
+  base-xp: 1
+  multiplier: 1.0
