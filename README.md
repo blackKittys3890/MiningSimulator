@@ -34,16 +34,15 @@ Designed for survival, RPG, and economy servers that want to make mining more en
 
 ---
 
-## ⚙️ Configuration
+# ⚙️ Configuration
 
-The plugin comes with an easy-to-use configuration file:
+The plugin uses a simple YAML configuration system to keep everything flexible and easy to customize.
 
 ```yml
-# Example config section
-rewards:
-  enable: true
-  chance: 0.25
+settings:
+  currency-name: "Coins"
+  respawn-delay-ticks: 1
 
-progress:
-  base-xp: 1
-  multiplier: 1.0
+mines: {}
+
+shop-villagers: []
